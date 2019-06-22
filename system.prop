@@ -229,6 +229,9 @@ sys.shenchao_nt36672a_length=38
 #thermal configs path
 sys.thermal.data.path=/data/vendor/thermal/
 
+# Enable all system restart_level to relative
+persist.vendor.ssr.restart_level=ALL_ENABLE
+
 # ro.location properties below are used in conjunction
 # with NLP_MODE setting in /vendor/etc/izat.conf
 # either as the main network provider or as a fallback
