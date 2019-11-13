@@ -640,4 +640,7 @@
 
     <!-- Whether to enable smart clock feature -->
     <bool name="config_enableSmartClock">true</bool>
+
+    <!-- Whether or not to use Night Light -->
+    <bool name="config_nightDisplayAvailable">true</bool>
 </resources>
