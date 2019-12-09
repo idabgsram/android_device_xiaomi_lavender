@@ -247,5 +247,3 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 ro.location.osnlp.package=com.google.android.gms
 ro.location.osnlp.region.package=
 
-# Havoc-OS Maintainer
-ro.havoc.maintainer=DarkDroidDev
