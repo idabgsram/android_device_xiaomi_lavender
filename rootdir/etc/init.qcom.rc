@@ -192,6 +192,9 @@ on boot
     mkdir /mnt/vendor/persist/alarm 0770 system system
     mkdir /mnt/vendor/persist/time 0770 system system
     mkdir /mnt/vendor/persist/secnvm 0770 system system
+    #Fingerprint
+    mkdir /data/vendor_de/0/fpdata
+    chown system system /data/vendor_de/0/fpdata
 
     #Create NETMGR daemon socket area
     mkdir /dev/socket/netmgr 0750 radio radio
